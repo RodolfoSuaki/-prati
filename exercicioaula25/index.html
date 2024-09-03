@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <form action="" id="form">
+
+            <h1>Formulário</h1>
+        <label for="name">Nome</label>
+        <input type="text" id="name">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+
+        <label for="password">Senha</label>
+        <input type="password" id="password">
+
+        <label for="password">Confirme sua senha</label>
+        <input type="password" id="re-password">
+
+        <label for="country">País</label>
+        <select name="country" id="country">
+            <option value="Brasil">Brasil</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+            <option value="Japao">Japão</option>
+            <option value="Italia">Itália</option>
+            <option value="Africa do Sul">África do Sul</option>
+        </select>
+
+        <label for="genre">Genero</label>
+        <select name="genre" id="genre">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+        </select>
+
+        <fieldset>
+            <legend>Preferências de Comunicação</legend>
+            <label for="checkbox">Receber atualizações por e-mail</label>
+            <input type="checkbox" name="accept-email" id="accept-email">
+
+            <label for="checkbox">Receber atualizações por SMS</label>
+            <input type="checkbox" name="accept-SMS" id="accept-SMS">
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

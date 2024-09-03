@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #F8F9FA;
+}
+
+main {
+    background-color: #FFFFFF;
+    margin: 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+.register h2 {
+    margin: 2%;
+}
+
+.register-filter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+select {
+    margin-right: 5%;
+    height: 35px;
+}
+
+.register-space {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 1%;
+}
+
+.register-space input {
+    margin-right: 5%;
+    height: 35px;
+}
+
+.register-space button {
+    margin-right: 5%;
+    height: 35px;
+    max-width: 50px;
+    background-color: #343A40;
+    color: #FFFFFF;
+}
+
+.list-tasks {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+
+th,tr{
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+.tasks tr td{
+    margin-top: 20px
+}
+

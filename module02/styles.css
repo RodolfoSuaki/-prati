@@ -1,0 +1,27 @@
+/* CSS - Estilização e Responsividade:
+
+    Estilização:
+
+        Adicione uma borda ao redor do formulário com cantos arredondados.
+        Utilize espaçamento adequado entre os campos.
+        Altere a cor de fundo e o estilo da fonte.
+        Aplique foco (:focus) nos campos, destacando-os quando o usuário estiver interagindo com eles.
+        Estilize o botão de envio para parecer um botão moderno (com sombras, efeito hover, e animação suave quando pressionado).
+Alinhe os rótulos (<label>) dos campos à esquerda e os inputs à direita, criando uma boa legibilidade. --> */
+
+
+*{
+    background-color: azure;
+}
+
+form {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+

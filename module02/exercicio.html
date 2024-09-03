@@ -1,0 +1,48 @@
+<!-- Formulário de Contato com Validação
+
+    Objetivo: Criar um formulário de contato, com validação.
+    Instruções:
+        Crie um formulário com os seguintes campos:
+            Nome (campo obrigatório)
+            E-mail (campo obrigatório e deve validar formato de e-mail)
+            Mensagem (campo obrigatório)
+            Telefone (campo opcional)
+            Assunto (campo de seleção com 3 opções: Dúvida, Suporte, Feedback)
+            Checkbox para aceitar os Termos de Uso (obrigatório)
+Inclua um botão de envio que só deve ser habilitado se todos os campos obrigatórios forem preenchidos corretamente.
+        Adicione um placeholder para cada campo.
+
+        Utilize HTML5 para adicionar validação dos campos obrigatórios e padrões de validação (como o campo de e-mail e número de telefone). -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="">
+        <div>    
+            <input type="text" name="" id="" placeholder="Digite seu nome" required>
+            <input type="email" name="" id="" placeholder="Digite seu e-mail" required>
+            <input type="text" name="" id="" placeholder="Digite sua mensagem" required>
+            <input type="number" name="" id="" placeholder="Digite seu telefone">
+            <select name="" id="">
+                <option value="">Selecione o assunto</option>
+                <option value="">Dúvida</option>
+                <option value="">Suporte</option>
+                <option value="">Feedback"></option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="" id="" required>
+            <label for="checkbox">Aceitar os termos</label>
+        </div>
+    
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
