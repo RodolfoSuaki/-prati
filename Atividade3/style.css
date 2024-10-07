@@ -170,19 +170,19 @@ main {
 }
 
 .emagrecimento{
-    background-image: url("fita-metrica.avif"); /* Substitua pela sua imagem */
+    background-image: url("fita-metrica.avif"); 
     background-size: cover;
     background-position: center;
 }
 
 .massa{
-    background-image: url("halteres-massa.jpg"); /* Substitua pela sua imagem */
+    background-image: url("halteres-massa.jpg"); 
     background-size: cover;
     background-position: center;
 }
 
 .treinamento{
-    background-image: url("treino-funcional.jfif"); /* Substitua pela sua imagem */
+    background-image: url("treino-funcional.jfif"); 
     background-size: cover;
     background-position: center;
 }
